@@ -1,0 +1,220 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #fbfafe;
+  color: #520005;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* headings */
+h1 {
+  font-family: "UnifrakturCook", serif;
+  font-size: 96px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+h2 {
+  font-family: "Italiana", serif;
+  font-size: 44px;
+  font-weight: normal;
+  border-bottom: 2px solid #b24c63;
+  overflow: hidden;
+}
+
+h3 {
+  font-family: "Italiana", serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+/* h4 = teal quote box */
+h4 {
+  background-color: #19647e;
+  color: #dbd8f0;
+  font-family: "Italiana", serif;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 20px;
+}
+
+/* h5 = blog name "Cab Regret" */
+h5 {
+  font-family: "UnifrakturCook", serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+/* h6 = dark banner bar */
+h6 {
+  background-color: #520005;
+  color: #dbd8f0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 12px 120px;
+  margin: 20px 0 0 0;
+}
+
+/* links  */
+a {
+  color: #19647e;
+}
+
+/* header and navigation  */
+header {
+  padding: 20px 120px 0 120px;
+}
+
+/* the tagline */
+header p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #19647e;
+  text-align: center;
+  border-bottom: 2px solid #520005;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+header a {
+  background-color: #afbed1;
+  color: #520005;
+  border: 2px solid #520005;
+  padding: 10px 24px;
+  text-decoration: none;
+}
+
+/* mark = page */
+mark {
+  background-color: #520005;
+  color: #dbd8f0;
+  border: 2px solid #520005;
+  padding: 10px 24px;
+}
+
+/* main content */
+main {
+  padding: 40px 120px;
+}
+
+/* keeps each photo inside its own section */
+section {
+  overflow: hidden;
+}
+
+img {
+  float: right;
+  width: 40%;
+  height: 660px;
+  object-fit: cover;
+  box-sizing: border-box;
+  background-color: #afbed1;
+  border: 2px solid #520005;
+  padding: 10px;
+  margin: 0 0 20px 30px;
+}
+
+/* em = big intro sentence */
+em {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: #19647e;
+}
+
+blockquote {
+  background-color: #520005;
+  color: #dbd8f0;
+  font-family: "Italiana", serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+  margin: 40px 0;
+}
+
+/* small = little uppercase labels */
+small {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* article = steel blue cards and boxes */
+article {
+  background-color: #afbed1;
+  border: 2px solid #520005;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+article p {
+  margin: 0 0 10px 0;
+}
+
+article a {
+  color: #520005;
+}
+
+/* receipt screenshots */
+article img {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin: 10px 2% 10px 0;
+}
+
+/* strong = big numbers */
+strong {
+  display: block;
+  font-family: "Italiana", serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+/* footer */
+footer {
+  background-color: #520005;
+  color: #dbd8f0;
+  padding: 40px 120px;
+}
+
+footer p {
+  color: #afbed1;
+  margin: 0;
+}
+
+footer a {
+  color: #dbd8f0;
+  padding-right: 20px;
+}
+
+footer ul {
+  text-align: left;
+}
+/* https://www.geeksforgeeks.org/css/css-overflow/ */
+/* https://www.geeksforgeeks.org/css/css-page-rule/ */
